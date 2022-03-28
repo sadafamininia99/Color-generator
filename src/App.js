@@ -6,14 +6,14 @@ function App() {
   
   return (
     <>
-      <section>
+      <section className="container">
         <h2>
           Color Generator
         </h2>
         <form type="text">
           <input type="text" placeholder='Type color'
-           onChange={(e) => setColor(e.target.value)} />
-          <button typeof='submit' >Get Colors</button>
+           onChange={(e) => setColor(e.target.value)}  />
+          <button className="btn"typeof='submit' >Get Colors</button>
         </form>
       </section>
 
