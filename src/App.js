@@ -3,9 +3,18 @@ import './App.css';
 
 function App() {
   return (
-    <div >
-     HELLO COLOR GENERATOR
-    </div>
+    <>
+      <section>
+        <h2>
+          Color Generator
+        </h2>
+        <form type="text">
+          <input type="text" placeholder='type color'/>
+          <button typeof='submit' >Get Colors</button>
+        </form>
+      </section>
+
+    </>
   );
 }
 
