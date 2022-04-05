@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import rgbToHex from './utils';
 
 
-function SingleColor() {
+function SingleColor(rgb,weight,index,hexcolor) {
+    const [alert,setAlert]=useState(false);
+    const bcg=rgb.join(",")
+    const hex=rgbToHex(...rgb);
+    //spred operator 
   return (
-    <div></div>
+    <div>
+
+    </div>
   )
 }
 
